@@ -5,9 +5,9 @@ int main() {
     scanf("%d",&num);
     while(num!=0) {
         remainder=num%10;
-        reverse= reverse*10 +remainder;
+        reverse=reverse*10+remainder;
         num=num/10;
     }
-    printf("reversed number is =%d",reverse);
+    printf("Reversed number is= %d",reverse);
     return 0;
 }
