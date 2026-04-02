@@ -17,11 +17,11 @@ int main() {
         printf("Roll number:");
         scanf("%d",&s[i].roll);
 
-        printf("Nmae:");
+        printf("Name:");
         scanf("%s",s[i].name);
 
-        printf("Marks in 3 subjects:");
-        scanf("%f %f %f",&s[i].m1,&s[i].m2,&s[i].m3);
+        printf("Marks in 3 subjects:\n");
+        scanf("%f %f %f", &s[i].m1, &s[i].m2, &s[i].m3);
 
         s[i].total=s[i].m1+s[i].m2+s[i].m3;
         s[i].percentage=s[i].total/3;
