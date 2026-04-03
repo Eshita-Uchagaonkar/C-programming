@@ -48,7 +48,7 @@ void totalemployees(int n) {
 void countgender(struct EMPLOYEE emp[],int n) {
     int male=0,female=0,i;
     for(i=0;i<n;i++) {
-        if(strcmp(emp[i].gender,"male")==0||strcmp(emp[i].gender,"male")==0)
+        if(strcmp(emp[i].gender,"male")==0||strcmp(emp[i].gender,"female")==0)
         male++;
         else
         female++;

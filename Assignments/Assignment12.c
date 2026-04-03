@@ -10,12 +10,12 @@ int main() {
     min=n2;
 
     for(i=2;i<=min;i++) {
-        if(n1%i==0&&n2%1==0) {
+        if(n1%i==0 && n2%i==0) {
             scd=i;
         break;}
     }
     for(i=1;i<=min;i++) {
-        if(n1%i==0&&n2%i==0) {
+        if(n1%i==0 && n2%i==0) {
             gcd=i;
         }
     }

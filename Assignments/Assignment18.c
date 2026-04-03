@@ -9,6 +9,7 @@ int main() {
 
     length=strlen(str1);
     printf("\nLength of string:%d",length);
+     
     printf("Reversed string:");
     for(i=length-1;i>=0;i--) {
         printf("%c",str1[i]);}
